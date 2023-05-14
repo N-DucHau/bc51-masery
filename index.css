@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    margin-left: 150px;
+    background-color: white;
+    margin-top: 30px;
+}
+.header b {
+    font-size: 50px;
+}
+.header i {
+    color: yellow;
+    font-size: 40px;
+    background-color: #002146;
+    padding: 10px;
+    border-radius: 50px;
+}
+.header ul {
+    margin-top: 25px;
+}
+.header li {
+    display: inline;
+    padding: 30px;
+    font-size: 20px;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.banner {
+    background-image: url(./img/2.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.content {
+   margin-top: 50px;
+}
+.content-left {
+    float: left;
+    width: 50%;
+    padding-left: 150px;
+}
+
+.content-right {
+    float: left;
+    width: 50%;
+}
+.content-left h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.content-left b {
+    color: gray;
+}
+.content-left button {
+    border: none;
+    padding: 20px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    margin-top: 30px;
+}
+.clear-both {
+    clear: both;
+}
+.statistic {
+    margin-top: 50px;
+    background-color: #f6f6f6;
+}
+.statitic-item h1 {
+    float: left;
+    width: auto;
+    font-size: 50px;
+}
+.statitic-item span {
+    font-size: 20px;
+}
+
+.statitic-item {
+    width: 25%;
+    float: left;
+    padding: 50px 100px;
+    margin: auto;
+}
+.clear-both {
+    clear: both;
+}
+.menu-content {
+    margin-top: 150px;
+}
+.menu-content button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #002146;
+    color: white;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.menu-content i {
+    font-size: 35px;
+}
+.menu-content h2 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.newsfeed {
+    background-color: #f6f6f6;
+    margin-top: 650px;
+}
+.news-content-post {
+    float: left;
+    width: 50%;
+    padding-left: 150px;
+    position: relative;
+}
+.clear-both {
+    clear: both;
+}
+.news-content-post-1 img {
+    height: 100px;
+    width: 160px;
+}
+.news-content-post-title {
+    font-size: 40px;
+    color: #002146;
+    padding-bottom: 40px;
+}
+.news-content-post-1-tit {
+    float: left;
+    width: 25% 75%;
+}
+.news-content-post-1-item {
+    background-color: white;
+    padding: 20px;
+    
+}
+.news-content-post-1-tit h4 {
+    font-size: 20px;
+    color: #002146;
+    padding-left: 20px;
+
+}
+.news-content-post-1-tit p {
+    font-size: 15px;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+.news-content-post-1-tit span {
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.news-content-post-button button {
+    border: none;
+    padding: 20px 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+
+}
+.news-content-event-1-date {
+    float: left;
+    width: 25% 75%;
+}
+.clear-both {
+    clear: both;
+}
+.news-content-event-1-daten {
+    background-color: #fdc800;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.news-content-event-1-yearen {
+    background-color: #002146;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;  
+}
+.news-content-event-text-tit h4 {
+    color: #002146;
+    font-size: 20px;
+    
+}
+
+.news-content-event-text-tit span {
+    color: gray;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.news-content-event-text {
+    padding-left: 20px;
+}
+
+
+/* css footder */
+.footer {
+    background-color: #002146;
+    color: white;
+    margin-top: 100px;
+}
+.footer-contact {
+    float: left;
+    width: 32%;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.clear-both {
+    clear: both; 
+}
+.footer-contact h6 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+.footer-contact i,b,p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-contact i {
+    color: yellow;
+    padding-right: 10px;
+}
+.footer-sign {
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
